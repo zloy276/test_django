@@ -146,14 +146,9 @@ SOCIAL_AUTH_VK_OAUTH2_KEY = config.VK_APP_ID
 
 SOCIAL_AUTH_VK_OAUTH2_SECRET = config.VK_APP_SECRET
 
-SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['r_basicprofile', 'r_emailaddress']
-
-SOCIAL_AUTH_VK_OAUTH2_FIELD_SELECTORS = ['email-address', 'formatted-name', 'public-profile-url', 'picture-url']
-
 SOCIAL_AUTH_VK_OAUTH2_EXTRA_DATA = [
     ('id', 'id'),
-    ('formattedName', 'name'),
-    ('emailAddress', 'email_address'),
+    ('expires', 'expires')
 ]
 
 LOGIN_URL = 'login'
