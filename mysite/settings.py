@@ -154,8 +154,6 @@ SOCIAL_AUTH_VK_OAUTH2_EXTRA_DATA = [
     ('id', 'id'),
     ('formattedName', 'name'),
     ('emailAddress', 'email_address'),
-    ('pictureUrl', 'picture_url'),
-    ('publicProfileUrl', 'profile_url'),
 ]
 
 LOGIN_URL = 'login'
