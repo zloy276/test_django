@@ -1,0 +1,2 @@
+VK_APP_ID = '7561625'
+VK_APP_SECRET = 'mNuZdqPJePNxbEmGTgu1'
