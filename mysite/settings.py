@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 ]
 
 AUTHENTICATION_BACKENDS = (
-    'social_core.backends.vk.VKOAuth2',
+    'social_core.backends.vk.VKOAuth2Backend',
     'django.contrib.auth.backends.ModelBackend',
 )
 
@@ -145,11 +145,6 @@ STATIC_URL = '/static/'
 SOCIAL_AUTH_VK_OAUTH2_KEY = config.VK_APP_ID
 
 SOCIAL_AUTH_VK_OAUTH2_SECRET = config.VK_APP_SECRET
-
-SOCIAL_AUTH_VK_OAUTH2_EXTRA_DATA = [
-    ('id', 'id'),
-    ('expires', 'expires')
-]
 
 LOGIN_URL = 'login'
 
